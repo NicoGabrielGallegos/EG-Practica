@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercitación 4 (complementaria)</title>
+    </head>
+    <body>
+        <h1>Ejercitación 4</h1>
+
+        <hr>
+
+        <form action="#">
+            <h2>4.A - Formulario con campo requerido</h2>
+            <table>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Nombre-4A"><b>Nombre:</b></label></td>
+                    <td colspan="2"><input type="text" id="Nombre-4A" name="Nombre-4A" size="16"><br></td>
+                </tr>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Apellido-4A"><b>Apellido:</b></label></td>
+                    <td colspan="2"><input type="text" id="Apellido-4A" name="Apellido-4A" size="16"><br></td>
+                </tr>
+                <tr>
+                    <td align="right" valign="bottom"><label for="E-mail-4A"><b>E-mail:</b></label></td>
+                    <td colspan="2"><input type="text" id="E-mail-4A" name="E-mail-4A" size="16" required><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><button type="submit">ENVIAR</button></td>
+                    <td align="center"><button type="reset">BORRAR</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <hr>
+
+        <form action="#">
+            <h2>4.B - Formulario con campo de tipo email</h2>
+            <table>
+                <tr>
+                    <td align="right" valign="bottom"><label for="E-mail-4B"><b>E-mail:</b></label></td>
+                    <td colspan="2"><input type="email" id="E-mail-4B" name="E-mail-4B" size="16"><br></td>
+                </tr>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Mensaje4B"><b>Mensaje:</b></label></td>
+                    <td colspan="2"><input type="text" id="Mensaje-4B" name="Mensaje-4B" size="16"><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><button type="submit">ENVIAR</button></td>
+                    <td align="center"><button type="reset">BORRAR</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <hr>
+
+        <form action="#">
+            <h2>4.C - Formulario con campo de tipo fecha</h2>
+            <table>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Fecha-4C"><b>Fecha:</b></label></td>
+                    <td colspan="2"><input type="date" id="Fecha-4C" name="Fecha-4C"><br></td>
+                </tr>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Fecha-y-hora-4C"><b>Fecha y hora:</b></label></td>
+                    <td colspan="2"><input type="datetime-local" id="Fecha-y-hora-4C" name="Fecha-y-hora-4C"><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><button type="submit">ENVIAR</button></td>
+                    <td align="center"><button type="reset">BORRAR</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <hr>
+
+        <form action="#">
+            <h2>4.D - Formulario con campo de tipo color</h2>
+            <table>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Color-4D"><b>Color:</b></label></td>
+                    <td colspan="2"><input type="color" id="Color-4D" name="Color-4D"><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><button type="submit">ENVIAR</button></td>
+                    <td align="center"><button type="reset">BORRAR</button></td>
+                </tr>
+            </table>
+        </form>
+
+        <hr>
+
+        <form action="#">
+            <h2>4.E - Formulario con campo de tipo number [0 - 100]</h2>
+            <table>
+                <tr>
+                    <td align="right" valign="bottom"><label for="Numero-4E"><b>Numero entre 0 y 100:</b></label></td>
+                    <td colspan="2"><input type="number" id="Numero-4E" name="Numero-4E" min="0" max="100"><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="center"><button type="submit">ENVIAR</button></td>
+                    <td align="center"><button type="reset">BORRAR</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
