@@ -1,0 +1,52 @@
+
+/* - Inciso 1 - */
+/* texto enfatizado dentro de un título <h1> */
+h1 em {
+    color: #e62b3b;
+}
+
+/* - Inciso 2 - */
+/* elemento con atributo href, dentro de un <p>, dentro de un <div>*/
+div p [href] {
+    color:#ff9dad;
+}
+
+/* - Inciso 3 - */
+/* texto dentro de las listas no ordenadas */
+div#ultimo ul {
+    color: #ffe32a;
+}
+/* enlaces dentro de las listas no ordenadas */
+div#ultimo ul a{
+    color: #355aff;
+}
+
+/* - Inciso 4 - */
+/* elementos identificados como importantes */
+.importante {
+    color: #06d154;
+}
+/* títulos identificados como importantes */
+h1.importante {
+    color: #e62b3b;
+}
+
+/* - Inciso 5 - */
+/* elementos <h1> con atributo title */
+h1[title] {
+    color: #355aff;
+}
+
+/* - Inciso 6 - */
+/* elementos <a> sin subrayado */
+ol a {
+    text-decoration: none;
+}
+/* enlaces de elementos <a> de color azul */
+ol a:link {
+    color: #355aff;
+}
+/* enlaces de elementos <a> ya visitados de color violeta */
+ol a:visited {
+    color: rgb(155, 52, 202);
+}

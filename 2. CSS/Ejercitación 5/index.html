@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+    </head>
+    <body>
+        <h1>Ejercitación 5</h1>
+
+        <hr> <!-- Inciso 1 -->
+
+        <h3>1 - Los textos enfatizados dentro de cualquier título deben ser rojos.</h3>
+
+        <h1>Título con <em>texto enfatizado</em></h1>
+
+        <hr> <!-- Inciso 2 -->
+
+        <h3>2 - Cualquier elemento que tenga asignado el atributo "href" y que esté dentro de cualquier párrafo que a su vez esté dentro de un bloque debe ser color negro.</h3>
+
+        <a href="#" id="1">Elemento &lta&gt con atributo href</a><br>
+        <a>Elemento &lta&gt sin atributo href</a><br>
+        <div>
+            &ltdiv&gt /* Comienzo del bloque */
+            <p>
+                &nbsp;&nbsp;&nbsp;
+                &ltp&gt /* Comienzo del párrafo */<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#2" id="2">Elemento &lta&gt con atributo href</a><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a>Elemento &lta&gt sin atributo href</a><br>
+                &nbsp;&nbsp;&nbsp;
+                &lt/p&gt /* Fin del párrafo */<br>
+            </p>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#3" id="3">Elemento &lta&gt con atributo href</a><br>
+            &nbsp;&nbsp;&nbsp;
+            <a>Elemento &lta&gt sin atributo href</a><br>
+            &lt/div&gt /* Fin del bloque */<br>
+        </div>    
+
+        <hr> <!-- Inciso 3 -->
+
+        <h3>3 - El texto de las listas no ordenadas que estén dentro del bloque identificado como “ultimo” debe ser amarillo pero si es un enlace a otra página debe ser azul.</h3>
+
+        &ltdiv id="primero"&gt /* Comienzo del bloque con clase "primero" */
+        <div id="primero">
+            <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <a href="#4" id="4"><li>Item3 (link)</li></a>
+                <li>Item4</li>
+            </ul>
+        </div>
+        &lt/div&gt /* Fin del bloque */
+        <br><br><br><br>
+        &ltdiv&gt /* Comienzo del bloque sin clase */
+        <div>
+            <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <a href="#5" id="5"><li>Item3 (link)</li></a>
+                <li>Item4</li>
+            </ul>
+        </div>
+        &lt/div&gt /* Fin del bloque */
+        <br><br><br><br>
+        &ltdiv id="ultimo"&gt /* Comienzo del bloque con clase "ultimo" */
+        <div id="ultimo">
+            <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <a href="#6" id="6"><li>Item3 (link)</li></a>
+                <li>Item4</li>
+            </ul>
+        </div>
+        &lt/div&gt /* Fin del bloque */
+
+        <hr> <!-- Inciso 4 -->
+
+        <h3>4 - Los elementos identificados como “importante” dentro de cualquier bloque deben ser verdes, pero si están dentro de un título deben ser rojos.</h3>
+        <p class="importante">Este es un párrafo importante</p>
+        <h1 class="importante">Este es un título importante</h1>
+
+        <hr> <!-- Inciso 5 -->
+
+        <h3>5 - Todos los elementos h1 que especifique el atributo title, cualquiera que sea su valor, deben ser azules.</h3>
+
+        <h1>Título sin atributo title</h1>
+        <h1 title="">Título con atributo title</h1>
+
+        <hr> <!-- Inciso 6 -->
+
+        <h3>6 - El color de los enlaces en las listas ordenadas debe ser azul para los enlaces aún no visitados, y violeta para los ya visitados y, además, no deben aparecer subrayados.</h3>
+
+        <ol>
+            <a href="#7" id="7"><li>Item3 (link)</li></a>
+            <a href="#8" id="8"><li>Item3 (link)</li></a>
+            <a href="#9" id="9"><li>Item3 (link)</li></a>
+            <a href="#10" id="10"><li>Item3 (link)</li></a>
+        </ol>
+    </body>
+</html>
