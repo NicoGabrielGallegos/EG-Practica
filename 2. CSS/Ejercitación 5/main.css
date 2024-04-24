@@ -1,34 +1,37 @@
 
 /* - Inciso 1 - */
-/* texto enfatizado dentro de un título <h1> */
-h1 em {
-    color: #e62b3b;
+/* texto enfatizado dentro de cualquier título (<h1>, <h2>, <h3>, <h4>, <h5>, <h6>) */
+h1, h2, h3, h4, h5, h6 {
+    em {
+        color: #e62b3b;
+    }
 }
 
 /* - Inciso 2 - */
-/* elemento con atributo href, dentro de un <p>, dentro de un <div>*/
+/* elemento con atributo href, dentro de un <p>, dentro de un <div> */
 div p [href] {
     color:#ff9dad;
 }
 
 /* - Inciso 3 - */
-/* texto dentro de las listas no ordenadas */
+/* texto y enlaces dentro de las listas no ordenadas */
 div#ultimo ul {
-    color: #ffe32a;
+    color: #ffe32a; /* color de texto */
+    a {
+        color: #355aff; /* color de enlaces */
+    }
 }
 /* enlaces dentro de las listas no ordenadas */
-div#ultimo ul a{
-    color: #355aff;
-}
 
 /* - Inciso 4 - */
-/* elementos identificados como importantes */
+/* elementos identificados como importantes*/
 .importante {
-    color: #06d154;
-}
-/* títulos identificados como importantes */
-h1.importante {
-    color: #e62b3b;
+    div & { /* dentro de cualquier bloque */
+        color: #06d154; 
+    }
+    h1 &, h2 &, h3 &, h4 &, h5 &, h6 & { /* dentro de un h1 */
+        color: #e62b3b; 
+    }
 }
 
 /* - Inciso 5 - */
@@ -38,15 +41,13 @@ h1[title] {
 }
 
 /* - Inciso 6 - */
-/* elementos <a> sin subrayado */
-ol a {
+/* enlaces en listas ordenadas */
+ol a{ 
     text-decoration: none;
-}
-/* enlaces de elementos <a> de color azul */
-ol a:link {
-    color: #355aff;
-}
-/* enlaces de elementos <a> ya visitados de color violeta */
-ol a:visited {
-    color: rgb(155, 52, 202);
+    &:link { /* enlace aun no visitado */
+        color: #355aff;
+    }
+    &:visited { /* enlace ya visitado */
+        color: #9b34ca;
+    }
 }

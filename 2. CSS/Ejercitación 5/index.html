@@ -82,15 +82,31 @@
         <hr> <!-- Inciso 4 -->
 
         <h3>4 - Los elementos identificados como “importante” dentro de cualquier bloque deben ser verdes, pero si están dentro de un título deben ser rojos.</h3>
-        <p class="importante">Este es un párrafo importante</p>
-        <h1 class="importante">Este es un título importante</h1>
+
+        &ltdiv&gt /* Comienzo de un bloque" */
+        <div>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Este párrafo tiene <b class="importante">texto importante</b> y está dentro del bloque
+            </p>
+        </div>
+        &lt/div&gt /* Fin del bloque */
+        <p>Este párrafo también tiene <b class="importante">texto importante</b> pero está fuera del bloque</p>
+
+        <h1>Este título tiene <b class="importante">cosas importantes</b></h1>
+        &ltdiv&gt /* Comienzo de un bloque" */
+        <div>
+            <h1>
+                &nbsp;&nbsp;&nbsp;&nbsp;Este título sigue teniendo <b class="importante">cosas importantes rojas</b> adentro de un bloque!
+            </h1>
+        </div>
+        &lt/div&gt /* Fin del bloque */
 
         <hr> <!-- Inciso 5 -->
 
         <h3>5 - Todos los elementos h1 que especifique el atributo title, cualquiera que sea su valor, deben ser azules.</h3>
 
-        <h1>Título sin atributo title</h1>
-        <h1 title="">Título con atributo title</h1>
+        <h1>Título H1 sin atributo title</h1>
+        <h1 title>Título H1 con atributo title</h1>
 
         <hr> <!-- Inciso 6 -->
 
