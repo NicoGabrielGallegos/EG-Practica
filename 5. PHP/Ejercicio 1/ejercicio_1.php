@@ -8,7 +8,7 @@ $message = "
 </head>
 <body>
     <h1>¡Prueba!</h1>
-    <p>Esto es una pruebe de envío de correo <b>HTML<b/> a través del servidor</p>
+    <p>Esto es una prueba de envío de correo <b>HTML<b/> a través del servidor</p>
 </body>
 </thml>
 ";
