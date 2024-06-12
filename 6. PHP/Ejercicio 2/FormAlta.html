@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Formulario Alta Usuarios</title>
+</head>
+<body>
+<FORM action="Alta.php" method="POST" name="FormAlta">
+    <TABLE width="225">
+        <TR>
+            <TD> Ciudad:</TD>
+            <TD>
+                <input type="TEXT" name="Ciudad" size="20" maxlength="50">
+            </TD>
+        </TR>
+        <TR>
+            <TD> Pais:</TD>
+            <TD>
+                <input type="TEXT" name="Pais" size="20" maxlength="50">
+            </TD>
+        </TR>
+        <TR>
+            <TD> Habitantes: </TD>
+            <TD>
+                <input type="NUMBER" name="Habitantes" size="20" maxlength="20" min="1">
+            </TD>
+        </TR>
+        <TR>
+            <TD> Superficie: </TD>
+            <TD>
+                <input TYPE="NUMBER" name="Superficie" size="20" maxlength="40" min="1" step="0.01">
+            </TD>
+        </TR>
+        <TR>
+            <TD> tieneMetro: </TD>
+            <TD>
+                <select name="TieneMetro">
+                    <option value="1">S&iacute;</option>
+                    <option value="0">No</option>
+                </select>
+            </TD>
+        </TR>
+        <TR>
+            <TD colspan="2" align="center"> <input TYPE="SUBMIT" name="Submit" value="Agregar">
+                <p><a href="Menu.html">Volver al men&uacute; del ABML</a></p>
+            </TD>
+        </TR>
+    </TABLE>
+</FORM>
+</body>
+</html>
