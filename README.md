@@ -12,4 +12,5 @@
 |[5. PHP](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/5.%20PHP)|[Ejercicio 1](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/5.%20PHP/Ejercicio%201)<br>[Ejercicio 2](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/5.%20PHP/Ejercicio%202)<br>[Ejercicio 3](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/5.%20PHP/Ejercicio%203)<br>[Ejercicio 4](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/5.%20PHP/Ejercicio%204)|
 |[6. PHP](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/6.%20PHP)|[Ejercicio 1](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/6.%20PHP/Ejercicio%201)<br>[Ejercicio 2](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/6.%20PHP/Ejercicio%202)|
 |[7. PHP]()||
+|[8. Accesibilidad y Usabilidad](https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/8.%20Accesibilidad%20y%20Usabilidad)|[Ejercicio](https://github.com/NicoGabrielGallegos/EG-Practica/blob/main/8.%20Accesibilidad%20y%20Usabilidad/EG_TP_AyUWeb_Gallegos.pdf)|
 |[9. Bootstrap]()||
