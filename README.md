@@ -4,10 +4,10 @@
 
 <table>
   <tr>
-    <td colspan=2>HTML</td>
+    <td colspan=2 width=800>HTML</td>
   </tr>
   <tr>
-    <td>
+    <td width=175>
       <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/1.%20HTML">Práctica 1</a>
     </td>
     <td>
@@ -32,10 +32,10 @@
 
 <table>
   <tr>
-    <td colspan=2>CSS</td>
+    <td colspan=2 width=800>CSS</td>
   </tr>
   <tr>
-    <td>
+    <td width=175>
       <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/2.%20CSS">Práctica 2</a>
     </td>
     <td>
@@ -52,13 +52,13 @@
 
 <table>
   <tr>
-    <td colspan=3>PHP</td>
+    <td colspan=3 width=800>PHP</td>
   </tr>
   <tr>
-    <td rowspan=2>
+    <td rowspan=2 width=95>
       <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/4.%20PHP">Práctica 4</a>
     </td>
-    <td>
+    <td width=80>
       Parte 1
     </td>
     <td>
@@ -107,10 +107,10 @@
 
 <table>
   <tr>
-    <td colspan=2>Desarrollo Web</td>
+    <td colspan=2 width=800>Desarrollo Web</td>
   </tr>
   <tr>
-    <td>
+    <td width=175>
       <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/3.%20Desarrollo%20Web">Práctica 3</a>
     </td>
     <td>
@@ -121,10 +121,10 @@
 
 <table>
   <tr>
-    <td colspan=2>Accesibilidad y Usabilidad</td>
+    <td colspan=2 width=800>Accesibilidad y Usabilidad</td>
   </tr>
   <tr>
-    <td>
+    <td width=175>
       <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/8.%20Accesibilidad%20y%20Usabilidad">Práctica 8</a>
     </td>
     <td>
