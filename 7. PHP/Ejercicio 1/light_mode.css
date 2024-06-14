@@ -1,0 +1,31 @@
+:root {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.form-fieldset {
+    border: 1px solid var(--black);
+}
+
+.form-select {
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+.form-button {
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.form-button:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.form-button:active {
+    background-color: var(--gray);
+    border-color: var(--gray);
+    color: var(--white);
+}
