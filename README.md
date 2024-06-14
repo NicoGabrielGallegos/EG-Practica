@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <td colspan=2 width=800>HTML</td>
+    <td colspan=2 width=900>HTML</td>
   </tr>
   <tr>
     <td width=175>
@@ -32,7 +32,7 @@
 
 <table>
   <tr>
-    <td colspan=2 width=800>CSS</td>
+    <td colspan=2 width=900>CSS</td>
   </tr>
   <tr>
     <td width=175>
@@ -52,7 +52,7 @@
 
 <table>
   <tr>
-    <td colspan=3 width=800>PHP</td>
+    <td colspan=3 width=900>PHP</td>
   </tr>
   <tr>
     <td rowspan=2 width=95>
@@ -100,6 +100,21 @@
       <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/6.%20PHP/Ejercicio%202">Ejercicio 2</a>
     </td>
   </tr>
+  <tr>
+    <td colspan=2>
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP">Práctica 7</a>
+    </td>
+    <td>
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%201">Ejercicio 1</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%202">Ejercicio 2</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%203">Ejercicio 3</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%204">Ejercicio 4</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%205">Ejercicio 5</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%206">Ejercicio 6</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%207">Ejercicio 7</a> -
+      <a href="https://github.com/NicoGabrielGallegos/EG-Practica/tree/main/7.%20PHP/Ejercicio%208">Ejercicio 8</a>
+    </td>
+  </tr>
 </table>
 
 
@@ -107,7 +122,7 @@
 
 <table>
   <tr>
-    <td colspan=2 width=800>Desarrollo Web</td>
+    <td colspan=2 width=900>Desarrollo Web</td>
   </tr>
   <tr>
     <td width=175>
@@ -121,7 +136,7 @@
 
 <table>
   <tr>
-    <td colspan=2 width=800>Accesibilidad y Usabilidad</td>
+    <td colspan=2 width=900>Accesibilidad y Usabilidad</td>
   </tr>
   <tr>
     <td width=175>
